@@ -154,7 +154,7 @@
       # URL of avatar shown in home page
       avatarURL = "https://gravatar.com/houzhongxu"
       # title shown in home page (HTML format is supported)
-      title = "主页"
+      title = "Home Page"
       # subtitle shown in home page
       subtitle = "Welcome onboard Capital Train!!"
       # whether to use typeit animation for subtitle
@@ -162,7 +162,7 @@
       # whether to show social links
       social = true
       # disclaimer (HTML format is supported)
-      disclaimer = ""
+      disclaimer = "Brave浏览器可以访问IPFS镜像 https://ipfs.capitaltrain.cn"
     # Home page posts
     [params.home.posts]
       enable = true

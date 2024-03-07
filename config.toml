@@ -46,7 +46,7 @@
   # website title for Open Graph and Twitter Cards
   title = "KeepIt"
   # website description for RSS, SEO, Open Graph and Twitter Cards
-  description = "This is my KeepIt site"
+  description = "欢迎来到觅钥博客"
   # website images for Open Graph and Twitter Cards
   images = []
 
@@ -61,7 +61,7 @@
       # URL of the LOGO
       logo = ""
       # title name
-      name = "My KeepIt site"
+      name = "觅钥博客"
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
@@ -108,11 +108,11 @@
   # App icon config
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "My KeepIt site"
+    title = "Capital Train"
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
-    svgFavicon = ""
+    svgFavicon = "https://s.seekkey.tech/logo"
     # Android browser theme color
     themeColor = "#ffffff"
     # Safari mask icon color
@@ -150,13 +150,13 @@
     [params.home.profile]
       enable = true
       # Gravatar Email for preferred avatar in home page
-      gravatarEmail = "test1@example.com"
+      gravatarEmail = "ben@capitaltrain.cn"
       # URL of avatar shown in home page
-      avatarURL = ""
+      avatarURL = "https://gravatar.com/houzhongxu"
       # title shown in home page (HTML format is supported)
-      title = ""
+      title = "主页"
       # subtitle shown in home page
-      subtitle = "This is my KeepIt site"
+      subtitle = "Welcome onboard Capital Train!!"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
@@ -186,6 +186,7 @@
     Mastodon = "@houzhongxu"
     Bilibili = "7002462"
     Email = "ben@seekkey.tech"
+    Tumblr = "seekkeypodcaster"
  
   # Page global config
   [params.page]
@@ -256,27 +257,20 @@
       enable = true
       Twitter = true
       Facebook = true
-      Linkedin = false
-      Whatsapp = false
-      Pinterest = false
-      Tumblr = false
-      HackerNews = true
-      Reddit = false
-      VK = false
-      Buffer = false
-      Xing = false
+      Linkedin = true
+      Whatsapp = true
+      Pinterest = true
+      Tumblr = true
+      Reddit = true
       Line = true
-      Instapaper = false
       Pocket = false
       Flipboard = false
       Weibo = true
       Blogger = false
       Baidu = false
-      Odnoklassniki = false
-      Evernote = false
+      Evernote = true
       Skype = false
-      Trello = false
-      Mix = false
+      facebook = true
     # Comment config
     [params.page.comment]
       enable = false

@@ -390,7 +390,7 @@
     enable = false
     # Google Analytics
     [params.analytics.google]
-      id = ""
+      id = "G-9J72WF8508"
       # whether to anonymize IP
       anonymizeIP = true
     # Fathom Analytics
@@ -423,5 +423,3 @@
     polyfill = false
     # whether to use object-fit-images to be compatible with older browsers
     objectFit = false
-  
-  googleAnalytics = "G-9J72WF8508"
